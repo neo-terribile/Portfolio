@@ -1,0 +1,112 @@
+/**/
+/*Standart Farbschema Dunkel*/
+:root{
+    --clr-background: rgb(37, 37, 37);
+    --clr-text: rgb(255, 255, 255);
+    --clr-primary: rgb(104, 17, 17);
+    --clr-headline2: rgb(104, 17, 17);
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: var(--clr-background);
+    margin: 0px;
+}
+.dark-mode{
+    --clr-background: rgb(255, 255,255);
+    --clr-text: rgb(0, 0, 0);
+    --clr-primary: rgb(128, 39, 39);
+}
+.site-header{
+    color: var(--clr-text)
+}
+.site-nav{
+    color:var(--clr-text)
+}
+.site-main{
+    color:var(--clr-text)
+    
+}
+.site-footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:var(--clr-text)
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    background: var(--clr-background);  
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    background: var(--clr-background);
+    cursor: pointer;
+}
+.header-image{
+    background-color: var(--clr-background);
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 20% 60%;
+    display: block;
+}
+.image-container{
+    background-color: var(--clr-background);
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    display: flex;
+    justify-content: end;
+}
+.left{
+    display: flex;
+    justify-content: start;
+}
+p{
+    color: var(--clr-text); 
+}
+a{
+    color: var(--clr-text);
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;  
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+h2{
+    font-size: 25px;
+    font-weight: bolder;
+    color: var(--clr-headline2)
+}
+nav ul li{
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    background-color: var(--clr-primary);
+}
+.vita1{
+    align-content: flex-end;
+}
+.vita2{
+    display: flex;
+    justify-content: left;
+}
